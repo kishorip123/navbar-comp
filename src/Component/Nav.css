@@ -1,0 +1,58 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
+    background-color: aqua;
+    color: black;
+    padding-top: 5px;
+    text-align: end;
+}
+a{
+    padding: 5px;
+    margin: 5px;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    height: 300px;
+    
+    padding: 100px 0px 0px 0px;
+    
+
+}
+.home>img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+}
+.about{
+    height: 400px;
+    margin: 50px;
+    background-color: rgb(222, 200, 203);
+    color: black;
+    
+    text-align: center;
+}
+.education{
+    height: 390px;
+    margin: 20px;
+    background-color: rgb(201, 233, 168);
+   padding: 50px;
+
+}
+
+
+.img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+}
+.img >img{
+    height:50px ;
+    width: 100%;
+}
+section{
+    display: flex;
+}
